@@ -1,7 +1,7 @@
 # WaspLib Documentation
 
 WaspLib documentation is created in the [WaspLib](https://github.com/WaspScripts/WaspLib) repository 
-and you can find the live version here: [](https://waspscripts.github.io/WaspLib/).
+and you can find the live version here: https://waspscripts.github.io/WaspLib/.
 
 This repository is contains the tools and assets used to build the documentation, especially because
 the assets are quite bulky.
@@ -13,7 +13,7 @@ Generates the repository documentation files from comments in the source files a
 
 Example documentation comment:
 
-```markdown
+~~~markdown
 (*
 # Mainscreen.PointToMM
 ```pascal
@@ -31,7 +31,7 @@ done by calling `.ToPoint()` on the result.
   WriteLn Mainscreen.PointToMM(Point(250,140), 2).ToPoint(); // as a TPoint (lost accuracy)
 ```
 *)
-```
+~~~
 
 You can run this locally with the following commands (Linux):
 
