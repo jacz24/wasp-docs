@@ -16,9 +16,9 @@ Example documentation comment:
 ```markdown
 (*
 # Mainscreen.PointToMM
-\```pascal
+```pascal
 function TRSMainScreen.PointToMM(MS: TPoint; Height: Int32=0; Accuracy:Double=0.2): Vector3;
-\```
+```
 
 Takes a mainscreen point and converts it to a point on the minimap.
 
@@ -26,10 +26,10 @@ Returns a Vector3 which includes input height. Conversion to a TPoint if that's 
 done by calling `.ToPoint()` on the result.
 
 ### Example
-\```pascal
+```pascal
   WriteLn Mainscreen.PointToMM(Point(250,140), 2);
   WriteLn Mainscreen.PointToMM(Point(250,140), 2).ToPoint(); // as a TPoint (lost accuracy)
-\```
+```
 *)
 ```
 
